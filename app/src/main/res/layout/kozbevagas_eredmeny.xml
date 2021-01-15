@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="@string/kozbevagas_eredmeny"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="@string/blue"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:id="@+id/kozbevagas_kek"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="@string/red"
+        android:background="@color/red"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:id="@+id/kozbevagas_piros"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="@string/green"
+        android:background="@color/green"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:id="@+id/kozbevagas_zold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="@string/yellow"
+        android:visibility="invisible"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:textColor="@color/main_text_color"
+        android:textSize="30sp"
+        android:id="@+id/kozbevagas_sarga"/>
+
+
+</LinearLayout>

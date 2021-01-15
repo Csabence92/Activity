@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="play_game">Play</string>
+    <string name="teams_count">Csapatok száma</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="min_count">2</string>
+    <string name="blue">KÉK</string>
+    <string name="red">PIROS</string>
+    <string name="green">ZÖLD</string>
+    <string name="yellow">SÁRGA</string>
+    <string name="currentTeam">Jelenlegi Csapat</string>
+    <string name="nextTeam">Következő Csapat</string>
+    <string name="default_countdown">05:00</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="kozbevagas_eredmeny">Közbevágás eredménye</string>
+</resources>
